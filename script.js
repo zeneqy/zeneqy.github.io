@@ -4,6 +4,6 @@ async function load_1(){
 $(document).ready(function() {
 	load_1().then(function(){
 		alert('2');
-		$('footer').remove();
+		$('#webloader footer').remove();
 	});	
 });
