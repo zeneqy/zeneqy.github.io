@@ -3,7 +3,7 @@ async function load_1(){
 }	
 $(document).ready(function() {
 	load_1().then(function(){
-		alert('1');
+		alert('2');
 		$('footer').remove();
 	});	
 });
