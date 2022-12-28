@@ -1,1 +1,1 @@
-console.log('cool');
+alert('cool');
