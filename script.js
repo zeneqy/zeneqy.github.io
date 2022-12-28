@@ -5,7 +5,8 @@ return Promise.resolve("Success");
 $(document).ready(function() {
 	load_1().then(
       (message) => {
-        $('#wxy00 #webloader footer').hide();
+        $('#wxy00 #webloader nav').hide();
+	      $('#wxy00 #webloader footer').hide();
         alert(message);
       },
       (message) => {
