@@ -4,13 +4,12 @@ return Promise.resolve("Success");
 }	
 $(document).ready(function() {
 	load_1().then(
-(message) => {
+      (message) => {
         $('#webloader footer').hide();
         alert(message);
       },
       (message) => {
         alert('failed');
       }
-	});	
-alert('ready');
+);	
 });
