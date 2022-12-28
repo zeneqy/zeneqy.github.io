@@ -3,7 +3,7 @@ async function load_1(){
 return Promise.resolve("Success");
 }	
 $(document).ready(function() {
-	load_1().then(
+	/*load_1().then(
 (message) => {
         $('#webloader footer').hide();
         alert(message);
@@ -11,5 +11,6 @@ $(document).ready(function() {
       (message) => {
         alert('failed');
       }
-	});	
+	});	*/
+alert('ready');
 });
